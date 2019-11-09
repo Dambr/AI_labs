@@ -1,0 +1,27 @@
+body{
+	background-color: #CD853F;
+	color: #FFFDD0;
+	font-family: monospace;
+	cursor: default;
+	font-size: 14pt;
+}
+.text{
+	padding: 5px;
+	font-family: monospace;
+	color: #A52A2A;
+	background-color: #F5F5DC;
+	border-radius: 10px;
+	outline: none;
+	border-style: solid;
+	border-color: #dddddd;
+	font-size: 12pt;
+}
+.submit{
+	cursor: pointer;
+}
+#autors{
+	display: inline-block;
+	border-style: solid;
+	border-color: #FF853F;
+	padding: 5px;
+}
