@@ -103,21 +103,21 @@
 					$semantic_array = [];
 
 					$wordFromLsdic1 = ReadingFile('lec', $nouns_base_array[0]);
-					// printM(113, $wordFromLsdic1);
+					// printM(106, $wordFromLsdic1);
 
 					$wordFromFrp = ReadingFile('prep', $pretext[0]);
 					if (count($wordFromFrp) == 0){
 						array_push($wordFromFrp, "");
 					}
-					// printM(117, $wordFromFrp);
+					// printM(112, $wordFromFrp);
 
 					$wordFromLsdic2 = ReadingFile('lec', $nouns_base_array[1]);
-					// printM(121, $wordFromLsdic2);
+					// printM(115, $wordFromLsdic2);
 
 					foreach ($wordFromFrp as $word_Frp){
-						// printM(127, $word_Frp);
+						// printM(118, $word_Frp);
 						foreach($wordFromLsdic1 as $word_Lsdic){
-							// printM(130, $word_Lsdic);
+							// printM(120, $word_Lsdic);
 							foreach ($word_Lsdic as $key) {
 								if ($key == $word_Frp['str1']){
 									$str1 = true;
@@ -126,7 +126,7 @@
 							}
 						}
 						foreach($wordFromLsdic2 as $word_Lsdic){
-							// printM(140, $word_Lsdic);
+							// printM(129, $word_Lsdic);
 							foreach ($word_Lsdic as $key) {
 								if($key == $word_Frp['str2']){
 									$str2 = true;
@@ -136,11 +136,11 @@
 						}
 						if($str1 && $str2){
 							foreach ($nouns_array[1] as $case) {
-								// printM(157, $case);
+								// printM(139, $case);
 								if($case == $word_Frp['case']){
 									$semantic_array[] = $word_Frp['rel'];
-									// printM(161, $word_Frp['rel']);
-									// printM(162, $semanticRelation);
+									// printM(142, $word_Frp['rel']);
+									// printM(143, $semanticRelation);
 								}
 
 							}
