@@ -26,14 +26,14 @@
 				require_once('phpMorphyConnection.php');
 				if(null!=$_REQUEST['submit']){
 					try{
-						Analizing($morphy);
+						Main($morphy);
 					}
 					catch(Exception $e){
 						echo $e->getMessage();
 					}
 				}
 
-				function Analizing($morphy){
+				function Main($morphy){
 					$sentence = explode(' ', $_REQUEST['sentence']);
 					for($i = 0; $i < count($sentence); $i++){
 						$sentence[$i] = trim($sentence[$i]);
@@ -102,16 +102,16 @@
 					$str2 = false;
 					$semantic_array = [];
 
-					$wordFromLsdic1 = GetDataFromDB('lec', $nouns_base_array[0]);
+					$wordFromLsdic1 = ReadingFile('lec', $nouns_base_array[0]);
 					// printM(113, $wordFromLsdic1);
 
-					$wordFromFrp = GetDataFromDB('prep', $pretext[0]);
+					$wordFromFrp = ReadingFile('prep', $pretext[0]);
 					if (count($wordFromFrp) == 0){
 						array_push($wordFromFrp, "");
 					}
 					// printM(117, $wordFromFrp);
 
-					$wordFromLsdic2 = GetDataFromDB('lec', $nouns_base_array[1]);
+					$wordFromLsdic2 = ReadingFile('lec', $nouns_base_array[1]);
 					// printM(121, $wordFromLsdic2);
 
 					foreach ($wordFromFrp as $word_Frp){
@@ -150,7 +150,7 @@
 					echo 'Найдены следующие смысловые отношения: ' . implode(',', $semantic_array);
 				}
 
-				function GetDataFromDB($where, $what){
+				function ReadingFile($where, $what){
 					if ($where == 'prep'){
 						// print_r("<br />" . "179: " . $what . "<br />");
 						$result = [];
