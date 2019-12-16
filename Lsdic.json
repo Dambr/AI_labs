@@ -1,402 +1,242 @@
 [
     {
         "id": 1,
-        "word": "ОБУЧЕНИЕ",
-        "type": "СУЩ",
-        "meaning": "ОБУЧЕНИЕ",
-        "sem1": "ПРОЦЕСС",
-        "sem2": "nil",
-        "sem3": "nil",
-        "comment": "получение значений"
-    },
-    {
-        "id": 2,
-        "word": "КУРС",
-        "type": "СУЩ",
-        "meaning": "КУРС",
-        "sem1": "КВАЛИФИКАЦИЯ",
-        "sem2": "УРОВЕНЬ",
-        "sem3": "nil",
-        "comment": "этап обучения"
-    },
-    {
-        "id": 3,
-        "word": "ОПОЗДАНИЕ",
-        "type": "СУЩ",
-        "meaning": "ОПОЗДАНИЕ",
-        "sem1": "ДЕЙСТВИЕ",
-        "sem2": "nil",
-        "sem3": "nil",
-        "comment": "нарушение установленных норм и правил"
-    },
-    {
-        "id": 4,
-        "word": "ШКОЛА",
-        "type": "СУЩ",
-        "meaning": "ШКОЛА",
+        "word": "ТОЛСТЫЙ",
+        "type": "ПРИЛ",
+        "meaning": "РАЗМЕР(Z1, HIGHT)",
         "sem1": "ФИЗ. ОБЪЕКТ",
         "sem2": "nil",
         "sem3": "nil",
-        "comment": "учебное заведение"
+        "comment": "nil"
+    },
+    {
+        "id": 2,
+        "word": "БЛОКНОТ",
+        "type": "СУЩ",
+        "meaning": "БЛОКНОТ1",
+        "sem1": "ФИЗ. ОБЪЕКТ",
+        "sem2": "nil",
+        "sem3": "nil",
+        "comment": "nil"
+    },
+    {
+        "id": 3,
+        "word": "БИБЛИО-ГЛОБУС",
+        "type": "СУЩ",
+        "meaning": "БИБЛИО-ГЛОБУС1",
+        "sem1": "НАЗВАНИЕ",
+        "sem2": "nil",
+        "sem3": "nil",
+        "comment": "nil"
+    },
+    {
+        "id": 4,
+        "word": "МАГАЗИН",
+        "type": "СУЩ",
+        "meaning": "МАГАЗИН1",
+        "sem1": "ФИЗ. ОБЪЕКТ",
+        "sem2": "nil",
+        "sem3": "nil",
+        "comment": "nil"
     },
     {
         "id": 5,
-        "word": "СДАЧА",
-        "type": "СУЩ",
-        "meaning": "СДАЧА",
-        "sem1": "ПРОЦЕСС",
+        "word": "ДЕШЕВЫЙ",
+        "type": "ПРИЛ",
+        "meaning": "СТОИМОСТЬ(Z1, LOW)",
+        "sem1": "ФИЗ. ОБЪЕКТ",
         "sem2": "nil",
         "sem3": "nil",
-        "comment": "демонстрация выполненной работы"
+        "comment": "nil"
     },
     {
         "id": 6,
-        "word": "ЭКЗАМЕН",
-        "type": "СУЩ",
-        "meaning": "ЭКЗАМЕН",
-        "sem1": "ПРОЦЕСС",
+        "word": "ПЛАСТИКОВЫЙ",
+        "type": "ПРИЛ",
+        "meaning": "МАТЕРИАЛ(Z1, ПЛАСТИК)",
+        "sem1": "ФИЗ. ОБЪЕКТ",
         "sem2": "nil",
         "sem3": "nil",
-        "comment": "этап обучения"
+        "comment": "nil"
     },
     {
         "id": 7,
-        "word": "ЗАЧЕТ",
+        "word": "РУЧКА",
         "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
+        "meaning": "РУЧКА1",
+        "sem1": "ФИЗ. ОБЪЕКТ",
         "sem2": "nil",
         "sem3": "nil",
-        "comment": "этап обучения"
+        "comment": "nil"
     },
     {
         "id": 8,
-        "word": "ЗАЧЕТ",
+        "word": "СТУДЕНТ",
         "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
+        "meaning": "СТУДЕНТ1",
+        "sem1": "СТАТУС",
         "sem2": "nil",
         "sem3": "nil",
-        "comment": "этап обучения"
+        "comment": "nil"
     },
     {
         "id": 9,
-        "word": "ЗАЧЕТ",
-        "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
+        "word": "КРАСНЫЙ",
+        "type": "ПРИЛ",
+        "meaning": "ЦВЕТ(Z1, КРАСНЫЙ)",
+        "sem1": "ФИЗ. ОБЪЕКТ",
         "sem2": "nil",
         "sem3": "nil",
-        "comment": "этап обучения"
+        "comment": "nil"
     },
     {
         "id": 10,
-        "word": "ЗАЧЕТ",
+        "word": "ТЕТРАДЬ",
         "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
+        "meaning": "ТЕТРАДЬ1",
+        "sem1": "ФИЗ. ОБЪЕКТ",
         "sem2": "nil",
         "sem3": "nil",
-        "comment": "этап обучения"
+        "comment": "nil"
     },
     {
         "id": 11,
-        "word": "ЗАЧЕТ",
+        "word": "ФИРМА",
         "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
+        "meaning": "ФИРМА1",
+        "sem1": "ФИЗ. ОБЪЕКТ",
         "sem2": "nil",
         "sem3": "nil",
-        "comment": "этап обучения"
+        "comment": "nil"
     },
     {
         "id": 12,
-        "word": "ЗАЧЕТ",
+        "word": "ТЕТРАПРОМ",
         "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
+        "meaning": "ТЕТРАПРОМ1",
+        "sem1": "НАЗВАНИЕ",
         "sem2": "nil",
         "sem3": "nil",
-        "comment": "этап обучения"
+        "comment": "nil"
     },
     {
         "id": 13,
-        "word": "ЗАЧЕТ",
-        "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
+        "word": "МЯГКИЙ",
+        "type": "ПРИЛ",
+        "meaning": "ЖЕСТКОСТЬ(Z1, LOW)",
+        "sem1": "ФИЗ. ОБЪЕКТ",
         "sem2": "nil",
         "sem3": "nil",
-        "comment": "этап обучения"
+        "comment": "nil"
     },
     {
         "id": 14,
-        "word": "ЗАЧЕТ",
+        "word": "КАРАНДАШ",
         "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
+        "meaning": "КАРАНДАШ1",
+        "sem1": "ФИЗ. ОБЪЕКТ",
         "sem2": "nil",
         "sem3": "nil",
-        "comment": "этап обучения"
+        "comment": "nil"
     },
     {
         "id": 15,
-        "word": "ЗАЧЕТ",
+        "word": "РЕБЕНОК",
         "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
+        "meaning": "РЕБЕНОК1",
+        "sem1": "ВОЗРАСТ",
         "sem2": "nil",
         "sem3": "nil",
-        "comment": "этап обучения"
+        "comment": "nil"
     },
     {
         "id": 16,
-        "word": "ЗАЧЕТ",
+        "word": "МАЛЬЧИК",
         "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
+        "meaning": "МАЛЬЧИК1",
+        "sem1": "ПОЛ",
         "sem2": "nil",
         "sem3": "nil",
-        "comment": "этап обучения"
+        "comment": "nil"
     },
     {
         "id": 17,
-        "word": "ЗАЧЕТ",
-        "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
+        "word": "БОЛЬШОЙ",
+        "type": "ПРИЛ",
+        "meaning": "РАЗМЕР(Z1, HIGHT)",
+        "sem1": "ФИЗ. ОБЪЕКТ",
         "sem2": "nil",
         "sem3": "nil",
-        "comment": "этап обучения"
+        "comment": "nil"
     },
     {
         "id": 18,
-        "word": "ЗАЧЕТ",
+        "word": "КНИГА",
         "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
+        "meaning": "КНИГА1",
+        "sem1": "ФИЗ. ОБЪЕКТ",
         "sem2": "nil",
         "sem3": "nil",
-        "comment": "этап обучения"
+        "comment": "nil"
     },
     {
         "id": 19,
-        "word": "ЗАЧЕТ",
+        "word": "ИЗДАТЕЛЬСТВО",
         "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
+        "meaning": "ИЗДАТЕЛЬСТВО1",
+        "sem1": "ФИЗ. ОБЪЕКТ",
         "sem2": "nil",
         "sem3": "nil",
-        "comment": "этап обучения"
+        "comment": "nil"
     },
     {
         "id": 20,
-        "word": "ЗАЧЕТ",
+        "word": "ДРОФА",
         "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
+        "meaning": "ДРОФА1",
+        "sem1": "НАЗВАНИЕ",
         "sem2": "nil",
         "sem3": "nil",
-        "comment": "этап обучения"
+        "comment": "nil"
     },
     {
         "id": 21,
-        "word": "ЗАЧЕТ",
-        "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
+        "word": "КРУПНЫЙ",
+        "type": "ПРИЛ",
+        "meaning": "РАЗМЕР(Z1, HIGHT)",
+        "sem1": "ФИЗ. ОБЪЕКТ",
         "sem2": "nil",
         "sem3": "nil",
-        "comment": "этап обучения"
+        "comment": "nil"
     },
     {
         "id": 22,
-        "word": "ЗАЧЕТ",
+        "word": "ПРИТОК",
         "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
+        "meaning": "ПРИТОК1",
+        "sem1": "ФИЗ. ОБЪЕКТ",
         "sem2": "nil",
         "sem3": "nil",
-        "comment": "этап обучения"
+        "comment": "nil"
     },
     {
         "id": 23,
-        "word": "ЗАЧЕТ",
+        "word": "РЕКА",
         "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
+        "meaning": "РЕКА1",
+        "sem1": "ФИЗ. ОБЪЕКТ",
         "sem2": "nil",
         "sem3": "nil",
-        "comment": "этап обучения"
+        "comment": "nil"
     },
     {
         "id": 24,
-        "word": "ЗАЧЕТ",
+        "word": "ВОЛГА",
         "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
+        "meaning": "ВОЛГА1",
+        "sem1": "НАЗВАНИЕ",
         "sem2": "nil",
         "sem3": "nil",
-        "comment": "этап обучения"
-    },
-    {
-        "id": 25,
-        "word": "ЗАЧЕТ",
-        "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
-        "sem2": "nil",
-        "sem3": "nil",
-        "comment": "этап обучения"
-    },
-    {
-        "id": 26,
-        "word": "ЗАЧЕТ",
-        "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
-        "sem2": "nil",
-        "sem3": "nil",
-        "comment": "этап обучения"
-    },
-    {
-        "id": 27,
-        "word": "ЗАЧЕТ",
-        "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
-        "sem2": "nil",
-        "sem3": "nil",
-        "comment": "этап обучения"
-    },
-    {
-        "id": 28,
-        "word": "ЗАЧЕТ",
-        "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
-        "sem2": "nil",
-        "sem3": "nil",
-        "comment": "этап обучения"
-    },
-    {
-        "id": 29,
-        "word": "ЗАЧЕТ",
-        "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
-        "sem2": "nil",
-        "sem3": "nil",
-        "comment": "этап обучения"
-    },
-    {
-        "id": 30,
-        "word": "ЗАЧЕТ",
-        "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
-        "sem2": "nil",
-        "sem3": "nil",
-        "comment": "этап обучения"
-    },
-    {
-        "id": 31,
-        "word": "ЗАЧЕТ",
-        "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
-        "sem2": "nil",
-        "sem3": "nil",
-        "comment": "этап обучения"
-    },
-    {
-        "id": 32,
-        "word": "ЗАЧЕТ",
-        "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
-        "sem2": "nil",
-        "sem3": "nil",
-        "comment": "этап обучения"
-    },
-    {
-        "id": 33,
-        "word": "ЗАЧЕТ",
-        "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
-        "sem2": "nil",
-        "sem3": "nil",
-        "comment": "этап обучения"
-    },
-    {
-        "id": 34,
-        "word": "ЗАЧЕТ",
-        "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
-        "sem2": "nil",
-        "sem3": "nil",
-        "comment": "этап обучения"
-    },
-    {
-        "id": 35,
-        "word": "ЗАЧЕТ",
-        "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
-        "sem2": "nil",
-        "sem3": "nil",
-        "comment": "этап обучения"
-    },
-    {
-        "id": 36,
-        "word": "ЗАЧЕТ",
-        "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
-        "sem2": "nil",
-        "sem3": "nil",
-        "comment": "этап обучения"
-    },
-    {
-        "id": 37,
-        "word": "ЗАЧЕТ",
-        "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
-        "sem2": "nil",
-        "sem3": "nil",
-        "comment": "этап обучения"
-    },
-    {
-        "id": 38,
-        "word": "ЗАЧЕТ",
-        "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
-        "sem2": "nil",
-        "sem3": "nil",
-        "comment": "этап обучения"
-    },
-    {
-        "id": 39,
-        "word": "ЗАЧЕТ",
-        "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
-        "sem2": "nil",
-        "sem3": "nil",
-        "comment": "этап обучения"
-    },
-    {
-        "id": 40,
-        "word": "ЗАЧЕТ",
-        "type": "СУЩ",
-        "meaning": "ЗАЧЕТ",
-        "sem1": "ПРОЦЕСС",
-        "sem2": "nil",
-        "sem3": "nil",
-        "comment": "этап обучения"
+        "comment": "nil"
     }
 ]
